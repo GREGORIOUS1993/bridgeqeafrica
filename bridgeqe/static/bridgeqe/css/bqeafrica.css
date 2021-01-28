@@ -1,0 +1,54 @@
+/* Logo Styles */
+#logo_name {
+	color: #0099CC
+}
+
+#logo_img {
+	height: 8em;
+	width: 8em;
+}
+
+/* index Styles */
+
+
+
+/* About Styles */
+#values {
+	padding:10px; 
+	border-radius: 25px; 
+	align-items: center; 
+	transition: transform 0.5; margin: 
+	auto; align-items: center;justify-content: 
+	center;align-items: center; width: 50%; 
+	background: #fff; 
+	box-shadow:0 5px 25px rgba(0,0,0,.1);
+	transition: transform 0.5; 
+	position:realtive;background: #fff;
+}
+
+#values:hover {
+	background: #fff687;
+	font-weight: bold;
+}
+
+#our_team {
+	text-align: center;
+}
+
+
+
+/* Project Styles */
+
+/* Gallery Styles */
+/* Contact Styles */
+#submit_btn {
+	background-color: #0099CC;
+	border-color: #0099CC;
+}
+
+#submit_btn:hover {
+	font-weight: bold;
+	color: #0099CC;
+	background-color: #fff687;
+	border-color: #fff687;
+}

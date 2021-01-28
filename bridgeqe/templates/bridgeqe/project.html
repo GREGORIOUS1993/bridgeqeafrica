@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+
+  <head>
+    <title>BQE Africa Project Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'bridgeqe/fonts/icomoon/style.css' %}">
+    <link rel="apple-touch-icon" sizes="57x57" href="{% static 'bridgeqe/img/fav/apple-icon-57x57.png' %}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{% static 'bridgeqe/img/fav/apple-icon-60x60.png' %}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{% static 'bridgeqe/img/fav/apple-icon-72x72.png' %}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{% static 'bridgeqe/img/fav/apple-icon-76x76.png' %}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{% static 'bridgeqe/img/fav/apple-icon-114x114.png' %}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{% static 'bridgeqe/img/fav/apple-icon-120x120.png' %}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{% static 'bridgeqe/img/fav/apple-icon-144x144.png' %}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{% static 'bridgeqe/img/fav/apple-icon-152x152.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'bridgeqe/img/fav/apple-icon-180x180.png' %}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{% static 'bridgeqe/img/fav/android-icon-192x192.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'bridgeqe/img/fav/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{% static 'bridgeqe/img/fav/favicon-96x96.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'bridgeqe/img/fav/favicon-16x16.png' %}">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/owl.theme.default.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/lightgallery.min.css' %}">    
+    
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/bootstrap-datepicker.css' %}">
+
+    <link rel="stylesheet" href="{% static 'bridgeqe/fonts/flaticon/font/flaticon.css' %}">
+    
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/swiper.css' %}">
+
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'bridgeqe/css/style.css' %}">
+
+    <link href="{% static 'bridgeqe/css/bqeafrica.css' %}" rel="stylesheet">   
+  </head>
+
+
+  <body>
+  
+    <div class="site-wrap">
+
+      <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+      
+      <header class="site-navbar py-3 border-bottom" role="banner">
+
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            
+            <div class="col-6 col-xl-2" data-aos="fade-down">
+              <h6 class="mb-0"><a href="{% url 'index' %}" id="logo_name"><img id="logo_img" src="{% static 'bridgeqe/img/logo.png' %}">BridgeQE Africa</a></h6>
+            </div>
+            <div class="col-10 col-md-8 d-none d-xl-block" data-aos="fade-down">
+              <nav class="site-navigation position-relative text-right text-lg-center" role="navigation">
+
+                <ul class="site-menu js-clone-nav mx-auto d-none d-lg-block">
+                  <li><a href="{% url 'index' %}">Home</a></li>
+                  <li class=""><a href="{% url 'about' %}">About</a></li>
+                  <li class="active"><a href="{% url 'project' %}">Projects</a></li>
+                  <li class=""><a href="{% url 'gallery' %}">Gallery</a></li>
+                  <li class=""><a href="{% url 'contact' %}">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="col-6 col-xl-2 text-right" data-aos="fade-down">
+              <div class="d-none d-xl-inline-block">
+                <ul class="site-menu js-clone-nav ml-auto list-unstyled d-flex text-right mb-0" data-class="social">
+                  <li>
+                    <a href="http://www.facbook.com/bridgeqeafrica" class="pl-0 pr-3" target="_blank"><span class="icon-facebook"></span></a>
+                  </li>
+                  <li>
+                  <a href="http://www.twitter.com/" class="pl-3 pr-3" target="_blank"><span class="icon-twitter"></span></a>
+                  </li>
+                  <li>
+                    <a href="https://instagram.com/bridgeqea" class="pl-3 pr-3" target="_blank"><span class="icon-instagram"></span></a>
+                  </li>
+                  <li>
+                  <a href="http://www.youtube.com/" class="pl-3 pr-3" target="_blank"><span class="icon-youtube-play"></span></a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+            </div>
+
+          </div>
+        </div>
+      
+      </header>
+
+      <div class=""  data-aos="fade">
+        <div class="container-fluid">
+          
+          <div class="row justify-content-center">
+            <div class="col-md-7">
+              <div class="row mb-5 site-section">
+                <div class="col-12 ">
+                  <h2 class="site-section-heading text-center">Projects</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- projects Section -->
+      <section id="projects">
+        <div class="container">
+
+          <!-- Page Heading/Breadcrumbs -->
+          <h1 class="mt-4 mb-3">
+          </h1>
+
+
+          <!-- Project One -->
+          <div class="row">
+            <div class="col-md-7">
+              <a href="#">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="{% static 'bridgeqe/img\volunteering.jpg' %}" alt="">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3>Volunteering</h3>
+              <p>We provide volunteering opportunities for tertiary students to practice what they have learnt in schools and give back to communities.</p>
+              <a class="btn btn-primary" href="#">View Project
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- Project Two -->
+          <div class="row">
+            <div class="col-md-7">
+              <a href="#">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="{% static 'bridgeqe/img/seminars.jpg' %}" alt="">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3>Seminars</h3>
+              <p>We organize seminars for tertiary students educating them on issues regarding quality education. These seminars aim to train and build the capacity of students to achieve their goals.</p>
+              <a class="btn btn-primary" href="#">View Project
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+
+          <hr>
+
+          <!-- Project Three -->
+          <div class="row">
+            <div class="col-md-7">
+              <a href="#">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="{% static 'bridgeqe/img/tSessions.jpg' %}" alt="">
+              </a>
+            </div>
+            <div class="col-md-5">
+              <h3>Training sessions</h3>
+              <p>We provide both physical and online training for all students and people who want to learn to acquire new skills and build their mindset.</p>
+              <a class="btn btn-primary" href="#">View Project
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+    
+        </div>
+      </section>
+
+    </div>
+
+    <br>
+    
+    <!-- Footer -->
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="small text-center text-muted">Copyright &copy; 2019 - Bridge Quality Education</div>
+      </div>
+    </footer>
+
+
+
+    <script src="{% static 'bridgeqe/js/jquery-3.3.1.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/jquery-migrate-3.0.1.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/jquery-ui.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/popper.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/jquery.stellar.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/bootstrap-datepicker.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/swiper.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/aos.js' %}"></script>
+
+    <script src="{% static 'bridgeqe/js/picturefill.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/lightgallery-all.min.js' %}"></script>
+    <script src="{% static 'bridgeqe/js/jquery.mousewheel.min.js' %}"></script>
+
+    <script src="{% static 'bridgeqe/js/main.js' %}"></script>
+    
+    <script>
+      $(document).ready(function(){
+        $('#lightgallery').lightGallery();
+      });
+    </script>
+      
+  </body>
+</html>
